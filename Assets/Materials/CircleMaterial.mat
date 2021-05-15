@@ -120,7 +120,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Height: 200
+    - _Height: 150
     - _LightingEnabled: 1
     - _LineWidth: 5
     - _Metallic: 0
@@ -137,7 +137,7 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _Width: 200
+    - _Width: 150
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:

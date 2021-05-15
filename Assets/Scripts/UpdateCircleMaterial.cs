@@ -6,8 +6,7 @@ public class UpdateCircleMaterial : MonoBehaviour
 {
     public Color LineColor = Color.cyan;
     public float LineWidth = 5f;
-    public float Width = 100f;
-    public float Height = 100f;
+    public float Size = 100f;
 
     private RectTransform rectTransform;
     private Image image;
@@ -20,11 +19,11 @@ public class UpdateCircleMaterial : MonoBehaviour
 
     private void Update()
     {
-        rectTransform.sizeDelta = new Vector2(Width, Height);
+        rectTransform.sizeDelta = new Vector2(Size, Size);
 
         image.material.SetColor("_Color", LineColor);
         image.material.SetFloat("_LineWidth", LineWidth);
-        image.material.SetFloat("_Width", Width);
-        image.material.SetFloat("_Height", Height);
+        image.material.SetFloat("_Width", Size);
+        image.material.SetFloat("_Height", Size);
     }
 }

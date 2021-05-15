@@ -302,6 +302,7 @@ GameObject:
   - component: {fileID: 1018245479}
   - component: {fileID: 1018245478}
   - component: {fileID: 1018245480}
+  - component: {fileID: 1018245481}
   m_Layer: 5
   m_Name: ManaCircle (ShaderGraph)
   m_TagString: Untagged
@@ -326,7 +327,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 200}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1018245478
 MonoBehaviour:
@@ -380,8 +381,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LineColor: {r: 0.41960785, g: 0.7647059, b: 1, a: 1}
   LineWidth: 5
-  Width: 200
-  Height: 200
+  Size: 150
+--- !u!114 &1018245481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018245476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb50046802cec44fb92041f2852d779, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MinSize: 150
+  MaxSize: 300
 --- !u!1 &1042360365
 GameObject:
   m_ObjectHideFlags: 0
