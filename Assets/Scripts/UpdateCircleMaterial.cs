@@ -7,6 +7,7 @@ public class UpdateCircleMaterial : MonoBehaviour
     public Color LineColor = Color.cyan;
     public float LineWidth = 5f;
     public float Size = 100f;
+    public Material material;
 
     private RectTransform rectTransform;
     private Image image;
@@ -15,6 +16,7 @@ public class UpdateCircleMaterial : MonoBehaviour
     {
         rectTransform = GetComponent<RectTransform>();
         image = GetComponent<Image>();
+        image.material = Instantiate(material);
     }
 
     private void Update()
