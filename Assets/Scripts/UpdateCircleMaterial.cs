@@ -4,9 +4,9 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Image)), ExecuteAlways]
 public class UpdateCircleMaterial : MonoBehaviour
 {
-    public Color LineColor = Color.cyan;
-    public float LineWidth = 5f;
-    public float Size = 100f;
+    public Color32 LineColor;
+    public float LineWidth ;
+    public float Size;
     public Material material;
 
     private RectTransform rectTransform;
